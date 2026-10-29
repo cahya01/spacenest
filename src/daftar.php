@@ -64,8 +64,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             $connection->close();
         } catch (mysqli_sql_exception | RuntimeException $exception) {
-            error_log('SIPAK student registration error: ' . $exception->getMessage());
-            $error = 'Pendaftaran belum dapat diproses. Pastikan MySQL berjalan dan database SIPAK sudah dibuat, lalu coba kembali.';
+            error_log('SPACENEST student registration error: ' . $exception->getMessage());
+            $error = 'Pendaftaran belum dapat diproses. Pastikan MySQL berjalan dan database yang dikonfigurasi sudah dibuat, lalu coba kembali.';
         }
     }
 }
@@ -80,7 +80,7 @@ function registrationEscape(string $value): string
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar Mahasiswa | SIPAK</title>
+    <title>Daftar Mahasiswa | SPACENEST</title>
     <link rel="stylesheet" href="assets/css/style.css?v=<?= filemtime(__DIR__ . '/assets/css/style.css') ?>">
 </head>
 <body class="login-page">
@@ -88,14 +88,14 @@ function registrationEscape(string $value): string
         <section class="login-welcome" aria-labelledby="welcome-title">
             <a class="login-brand" href="index.php">
                 <img src="assets/img/WhatsApp%20Image%202026-10-16%20at%2020.53.26.jpeg" alt="">
-                <span class="login-brand-name">SIPAK</span>
+                <span class="login-brand-name">SPACENEST</span>
                 <span class="login-brand-divider"></span>
-                <span class="login-brand-caption">Sistem Informasi Pengajuan<br>Akademik Kampus</span>
+                <span class="login-brand-caption">Sistem Pelaporan dan Monitoring Fasilitas Fakultas Teknik dan Sains Terapan</span>
             </a>
 
             <div class="welcome-copy">
                 <p class="welcome-eyebrow">AKUN KHUSUS MAHASISWA</p>
-                <h1 id="welcome-title">Mulai Layanan Akademik di <strong>SIPAK</strong></h1>
+                <h1 id="welcome-title">Mulai Gunakan <strong>SPACENEST</strong></h1>
                 <p class="welcome-description">Buat akun mahasiswa untuk mengajukan layanan akademik dan memantau prosesnya melalui satu portal.</p>
 
                 <ul class="welcome-benefits">
@@ -112,7 +112,7 @@ function registrationEscape(string $value): string
             <div class="login-card register-card">
                 <img class="login-card-logo" src="assets/img/WhatsApp%20Image%202026-10-16%20at%2020.53.26.jpeg" alt="Logo Universitas Muhammadiyah Indonesia">
                 <h2 id="register-title">Daftar Mahasiswa</h2>
-                <p class="login-card-subtitle">Buat akun SIPAK untuk mulai mengajukan layanan</p>
+                <p class="login-card-subtitle">Buat akun SPACENEST untuk mulai melaporkan dan memantau fasilitas</p>
                 <p class="login-instruction">Pendaftaran hanya tersedia untuk mahasiswa</p>
 
                 <?php if ($error !== ''): ?>

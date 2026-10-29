@@ -19,7 +19,7 @@ require_once __DIR__ . '/../includes/header.php';
 </aside>
 <main class="content">
     <h1>Pengaturan Sistem</h1>
-    <p>Konfigurasi umum dan keamanan aplikasi SIPAK.</p>
+    <p>Konfigurasi umum dan keamanan aplikasi SPACENEST.</p>
 </main>
 <?php
 require_once __DIR__ . '/../includes/footer.php';

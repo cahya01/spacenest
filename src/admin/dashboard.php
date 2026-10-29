@@ -11,7 +11,7 @@ $data = dashboardLoadDataSafely('admin', $username);
 dashboardRenderStart('admin', $username, 'Dashboard Admin', 'Cari pengajuan, mahasiswa, atau layanan...', $data['error'] ?? '');
 ?>
 <div class="dashboard-page-heading">
-    <div><span class="panel-kicker">PUSAT OPERASIONAL SIPAK</span><h1>Dashboard Admin</h1><p>Pantau pengajuan dan kelola layanan akademik dalam satu tempat.</p></div>
+    <div><span class="panel-kicker">PUSAT OPERASIONAL SPACENEST</span><h1>Dashboard Admin</h1><p>Pantau laporan dan kelola fasilitas dalam satu tempat.</p></div>
     <span class="dashboard-date desktop-date"><?php echo dashboardEscape(date('l, d F Y')); ?></span>
 </div>
 
