@@ -254,7 +254,7 @@ function dashboardRenderEnd()
     ?>
                 </main>
                 <footer class="dashboard-footer">
-                    <span>SPACENEST · Sistem Pelaporan dan Monitoring Fasilitas Fakultas Teknik dan Sains Terapan</span>
+                    <span>SPACENEST · System for Faculty Space & Resource Management</span>
                     <span>&copy; <?php echo date('Y'); ?> Universitas Muhammadiyah Indonesia</span>
                 </footer>
             </div>
