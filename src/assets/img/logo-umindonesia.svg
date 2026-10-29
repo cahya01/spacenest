@@ -1,0 +1,55 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgCircle" x1="100" y1="100" x2="700" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B2249"/>
+      <stop offset="1" stop-color="#0A1E41"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="220" y1="180" x2="580" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9D75B"/>
+      <stop offset="1" stop-color="#D9A826"/>
+    </linearGradient>
+    <linearGradient id="green" x1="220" y1="220" x2="560" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B9E9A8"/>
+      <stop offset="1" stop-color="#4BAF5D"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="400" cy="400" r="350" fill="url(#bgCircle)"/>
+  <circle cx="400" cy="400" r="318" stroke="#D7AE2D" stroke-width="18" fill="none"/>
+
+  <g opacity="0.95">
+    <path d="M220 555C280 490 330 385 330 260C330 210 346 170 370 138C390 172 400 209 400 258C400 373 448 482 520 550C480 562 438 568 400 568C344 568 277 563 220 555Z" fill="url(#gold)"/>
+    <path d="M580 555C520 490 470 385 470 260C470 210 454 170 430 138C410 172 400 209 400 258C400 373 352 482 280 550C320 562 362 568 400 568C456 568 523 563 580 555Z" fill="url(#gold)"/>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M176 446C246 407 284 364 299 319C328 361 338 408 334 463C302 480 267 488 176 446Z" fill="url(#green)"/>
+    <path d="M624 446C554 407 516 364 501 319C472 361 462 408 466 463C498 480 533 488 624 446Z" fill="url(#green)"/>
+  </g>
+
+  <g stroke="#F5F5F5" stroke-width="10" stroke-linecap="round" opacity="0.85">
+    <path d="M400 160V640"/>
+    <path d="M180 400H620"/>
+    <path d="M236 236L564 564"/>
+    <path d="M564 236L236 564"/>
+    <path d="M270 180L530 620"/>
+    <path d="M530 180L270 620"/>
+  </g>
+
+  <circle cx="400" cy="400" r="130" fill="#F7F7F7"/>
+  <circle cx="400" cy="400" r="104" fill="#0B2249"/>
+  <circle cx="400" cy="400" r="86" fill="#F5F5F5"/>
+
+  <g fill="none" stroke="#0B2249" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M400 325C370 325 345 350 345 380C345 412 370 435 400 435C430 435 455 412 455 380C455 350 430 325 400 325Z"/>
+    <path d="M400 260L420 315H380L400 260Z"/>
+    <path d="M400 470L420 530H380L400 470Z"/>
+    <path d="M325 400L380 420V380L325 400Z"/>
+    <path d="M475 400L420 420V380L475 400Z"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="400" y="175" font-size="66" font-weight="700" fill="#F4E2A0" letter-spacing="2">UNIVERSITAS MUHAMMADIYAH</text>
+    <text x="400" y="640" font-size="84" font-weight="900" fill="#F5F5F5">INDONESIA</text>
+  </g>
+</svg>

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" fill="none">
+  <defs>
+    <linearGradient id="panel" x1="203" y1="99" x2="573" y2="375" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset="1" stop-color="#E5F0FF"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="285" y1="119" x2="510" y2="356" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6CB6FF"/>
+      <stop offset="1" stop-color="#2776D8"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="333" y1="132" x2="444" y2="301" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#194F9C"/>
+      <stop offset="1" stop-color="#0C2F68"/>
+    </linearGradient>
+    <filter id="shadow" x="63" y="25" width="618" height="426" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#174B8E" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <circle cx="383" cy="235" r="179" stroke="#9CCBFF" stroke-dasharray="4 7"/>
+  <circle cx="383" cy="235" r="211" stroke="#C5DFFB" stroke-dasharray="3 8"/>
+  <circle cx="382" cy="235" r="145" fill="#DCEBFC" fill-opacity=".7"/>
+  <path d="M251 107 398 68l157 74-13 190-171 40-147-85 27-180Z" fill="url(#blue)" fill-opacity=".28"/>
+  <ellipse cx="378" cy="381" rx="203" ry="25" fill="#8BB8E9" fill-opacity=".2"/>
+  <g filter="url(#shadow)" opacity=".5"><rect x="169" y="100" width="375" height="272" rx="20" fill="#164B8A"/></g>
+  <g transform="rotate(9 395 230)" filter="url(#cardShadow)">
+    <rect x="247" y="94" width="298" height="244" rx="20" fill="url(#panel)"/>
+    <rect x="265" y="111" width="263" height="48" rx="12" fill="#fff"/>
+    <rect x="279" y="122" width="29" height="29" rx="8" fill="url(#navy)"/>
+    <path d="M287 128h10l5 5v11h-15v-16Z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M290 137h8m-8 4h8" stroke="#fff" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="318" y="135" fill="#12366D" font-family="Arial,sans-serif" font-size="12" font-weight="700">Pengajuan Layanan</text>
+    <rect x="318" y="143" width="114" height="5" rx="2.5" fill="#DAE6F5"/>
+    <rect x="269" y="171" width="249" height="1" fill="#E4ECF7"/>
+    <g font-family="Arial,sans-serif" font-size="11" fill="#35577F">
+      <circle cx="284" cy="190" r="8" fill="#2C8BF1"/><path d="m280 190 3 3 5-6" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="301" y="194">Dokumen</text>
+      <rect x="378" y="186" width="107" height="7" rx="3.5" fill="#E1EAF6"/>
+      <circle cx="284" cy="219" r="8" fill="#2C8BF1"/><path d="m280 219 3 3 5-6" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="301" y="223">Verifikasi</text>
+      <rect x="378" y="215" width="91" height="7" rx="3.5" fill="#E1EAF6"/>
+      <circle cx="284" cy="248" r="8" fill="#2C8BF1"/><path d="m280 248 3 3 5-6" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="301" y="252">Persetujuan</text>
+      <rect x="378" y="244" width="114" height="7" rx="3.5" fill="#E1EAF6"/>
+    </g>
+    <rect x="269" y="272" width="249" height="47" rx="12" fill="#F1F6FD"/>
+    <path d="M296 295h189" stroke="#ABC8EA" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="296" cy="295" r="10" fill="#2C8BF1"/>
+    <circle cx="358" cy="295" r="10" fill="#FFC858"/>
+    <circle cx="421" cy="295" r="10" fill="#55C49A"/>
+    <circle cx="484" cy="295" r="10" fill="#2C8BF1"/>
+    <path d="m292 295 3 3 5-6m54 3 3 3 5-6m54 3 3 3 5-6m54 3 3 3 5-6" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#526B8B" font-family="Arial,sans-serif" font-size="8" text-anchor="middle">
+      <text x="296" y="312">Ajukan</text><text x="358" y="312">Verifikasi</text><text x="421" y="312">Setujui</text><text x="484" y="312">Selesai</text>
+    </g>
+  </g>
+  <g transform="rotate(-5 182 144)" filter="url(#cardShadow)">
+    <rect x="96" y="106" width="144" height="126" rx="14" fill="#fff"/>
+    <g font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#234571">
+      <rect x="109" y="119" width="118" height="27" rx="8" fill="#F6F9FE"/>
+      <circle cx="122" cy="132" r="6" fill="#FFC858"/><path d="m120 132 2 2 3-4" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>
+      <text x="135" y="135">Diproses</text><path d="m216 129 3 3-3 3" stroke="#91A8C5" stroke-width="1.5"/>
+      <rect x="109" y="151" width="118" height="27" rx="8" fill="#F6F9FE"/>
+      <circle cx="122" cy="164" r="6" fill="#55C49A"/><path d="m120 164 2 2 3-4" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>
+      <text x="135" y="167">Disetujui</text><path d="m216 161 3 3-3 3" stroke="#91A8C5" stroke-width="1.5"/>
+      <rect x="109" y="183" width="118" height="27" rx="8" fill="#F6F9FE"/>
+      <circle cx="122" cy="196" r="6" fill="#428DF2"/><path d="m120 196 2 2 3-4" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>
+      <text x="135" y="199">Selesai</text><path d="m216 193 3 3-3 3" stroke="#91A8C5" stroke-width="1.5"/>
+    </g>
+  </g>
+  <g filter="url(#cardShadow)">
+    <rect x="533" y="122" width="73" height="67" rx="13" fill="#fff"/>
+    <path d="M550 141h40l-3 29h-34l-3-29Z" fill="#DCA93F"/>
+    <path d="M551 141v-8a4 4 0 0 1 4-4h12l5 5h14a4 4 0 0 1 4 4v4h-39Z" fill="#3E84D9"/>
+  </g>
+  <g filter="url(#cardShadow)">
+    <rect x="560" y="245" width="112" height="74" rx="13" fill="#fff"/>
+    <rect x="576" y="260" width="19" height="25" rx="3" fill="#2D8AED"/>
+    <path d="M581 266h9m-9 5h9m-9 5h6" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+    <rect x="603" y="263" width="52" height="6" rx="3" fill="#DCE7F4"/>
+    <rect x="603" y="275" width="42" height="6" rx="3" fill="#DCE7F4"/>
+    <rect x="576" y="294" width="79" height="6" rx="3" fill="#EAF0F8"/>
+  </g>
+  <g filter="url(#cardShadow)">
+    <rect x="550" y="337" width="67" height="61" rx="13" fill="#fff"/>
+    <path d="m561 359 22-13 22 13-22 13-22-13Z" fill="#174A8B"/>
+    <path d="M570 367v10c6 5 14 5 20 0v-10l-10 6-10-6Z" fill="#2B76C8"/>
+    <path d="M605 359v15" stroke="#C48A23" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="605" cy="377" r="2.5" fill="#F1BD4A"/>
+  </g>
+  <g filter="url(#cardShadow)">
+    <circle cx="480" cy="214" r="35" fill="#F8C64D"/>
+    <circle cx="480" cy="214" r="28" fill="url(#navy)"/>
+    <path d="m467 214 9 9 18-20" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <circle cx="78" cy="263" r="9" fill="#3688E5"/>
+  <circle cx="619" cy="207" r="6" fill="#FFC858"/>
+  <circle cx="125" cy="348" r="6" fill="#3688E5"/>
+  <circle cx="639" cy="345" r="5" fill="#FFC858"/>
+  <circle cx="297" cy="56" r="4" fill="#96C9FF"/>
+  <path d="M78 263c30-67 61-85 99-91m442 35c-19-58-41-91-85-114" stroke="#A9D1FC" stroke-dasharray="3 7"/>
+</svg>
