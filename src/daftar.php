@@ -90,7 +90,7 @@ function registrationEscape(string $value): string
                 <img src="assets/img/WhatsApp%20Image%202026-10-16%20at%2020.53.26.jpeg" alt="">
                 <span class="login-brand-name">SPACENEST</span>
                 <span class="login-brand-divider"></span>
-                <span class="login-brand-caption">Sistem Pelaporan dan Monitoring Fasilitas Fakultas Teknik dan Sains Terapan</span>
+                <span class="login-brand-caption">SPACENEST · System for Faculty Space & Resource Management</span>
             </a>
 
             <div class="welcome-copy">

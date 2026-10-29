@@ -12,7 +12,7 @@ if (isset($_SESSION['user'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPACENEST | Sistem Pelaporan dan Monitoring Fasilitas Fakultas Teknik dan Sains Terapan</title>
+    <title>SPACENEST · System for Faculty Space & Resource Management</title>
     <link rel="stylesheet" href="assets/css/style.css?v=<?= filemtime(__DIR__ . '/assets/css/style.css') ?>">
     <script src="assets/js/app.js?v=<?= filemtime(__DIR__ . '/assets/js/app.js') ?>" defer></script>
 </head>
@@ -23,7 +23,7 @@ if (isset($_SESSION['user'])) {
                 <img src="assets/img/WhatsApp Image 2026-10-16 at 20.53.26.jpeg" alt="Logo Universitas Muhammadiyah Indonesia">
                 <div class="brand-text">
                     <span class="brand-title">SPACENEST</span>
-                    <small>Sistem Pelaporan dan Monitoring Fasilitas Fakultas Teknik dan Sains Terapan</small>
+                    <small>SPACENEST · System for Faculty Space & Resource Management</small>
                 </div>
             </div>
 
