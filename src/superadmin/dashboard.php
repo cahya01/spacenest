@@ -11,7 +11,7 @@ $data = dashboardLoadDataSafely('superadmin', $username);
 dashboardRenderStart('superadmin', $username, 'Dashboard Superadmin', 'Cari pengguna, role, atau pengaturan...', $data['error'] ?? '');
 ?>
 <div class="dashboard-page-heading">
-    <div><span class="panel-kicker">KONTROL SISTEM</span><h1>Dashboard Superadmin</h1><p>Kelola pengguna dan pantau aktivitas aplikasi SIPAK.</p></div>
+    <div><span class="panel-kicker">KONTROL SISTEM</span><h1>Dashboard Superadmin</h1><p>Kelola pengguna dan pantau aktivitas aplikasi SPACENEST.</p></div>
     <span class="dashboard-date desktop-date"><?php echo dashboardEscape(date('l, d F Y')); ?></span>
 </div>
 
@@ -55,7 +55,7 @@ dashboardRenderStart('superadmin', $username, 'Dashboard Superadmin', 'Cari peng
         <div class="admin-quick-links superadmin-quick-links">
             <a href="pengguna.php"><span class="quick-link-icon shortcut-blue">♙</span><span><strong>Kelola Pengguna</strong><small>Tambah dan tinjau akun pengguna</small></span><b aria-hidden="true">›</b></a>
             <a href="role.php"><span class="quick-link-icon shortcut-purple">◇</span><span><strong>Kelola Role</strong><small>Atur hak akses aplikasi</small></span><b aria-hidden="true">›</b></a>
-            <a href="pengaturan.php"><span class="quick-link-icon shortcut-yellow">⚙</span><span><strong>Pengaturan Sistem</strong><small>Konfigurasi aplikasi SIPAK</small></span><b aria-hidden="true">›</b></a>
+            <a href="pengaturan.php"><span class="quick-link-icon shortcut-yellow">⚙</span><span><strong>Pengaturan Sistem</strong><small>Konfigurasi aplikasi SPACENEST</small></span><b aria-hidden="true">›</b></a>
         </div>
     </section>
 </div>

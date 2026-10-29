@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 'Siapkan data diri dan informasi akademik yang diminta pada formulir pengajuan.'
             ],
             steps: [
-                'Masuk ke SIPAK menggunakan akun mahasiswa.',
+                'Masuk ke SPACENEST menggunakan akun mahasiswa.',
                 'Buka menu pengajuan, pilih layanan skripsi jika tersedia, lalu isi judul atau topik sementara, program studi, dan keterangan yang diminta.',
                 'Unggah berkas pendukung dengan isi yang jelas dan dapat dibaca, kemudian periksa kembali semua isian.',
                 'Kirim pengajuan dan simpan nomor atau bukti pengajuan untuk memudahkan tindak lanjut.',
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 'Hubungi instansi tujuan untuk mengetahui persyaratan penerimaan peserta magang.'
             ],
             steps: [
-                'Masuk ke SIPAK dengan akun mahasiswa.',
+                'Masuk ke SPACENEST dengan akun mahasiswa.',
                 'Pilih layanan magang jika tersedia dan isi nama instansi, alamat atau lokasi, bidang kegiatan, serta rencana periode magang.',
                 'Jelaskan tujuan pengajuan dan kebutuhan surat pengantar atau persetujuan kampus.',
                 'Lampirkan dokumen yang diminta, periksa kembali nama instansi dan tanggal kegiatan, lalu kirim pengajuan.',
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 'Periksa ejaan nama, nomor induk mahasiswa, program studi, dan periode akademik.'
             ],
             steps: [
-                'Masuk ke SIPAK menggunakan akun mahasiswa.',
+                'Masuk ke SPACENEST menggunakan akun mahasiswa.',
                 'Pilih layanan surat aktif kuliah jika tersedia.',
                 'Isi tujuan surat, nama pihak atau instansi penerima, alamat tujuan bila diminta, dan keterangan tambahan.',
                 'Lampirkan bukti pendukung hanya jika diminta, lalu periksa ulang data sebelum mengirim.',
@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 'Tuliskan alasan cuti, semester yang dimohonkan, dan rencana semester aktif kembali secara jelas.'
             ],
             steps: [
-                'Masuk ke SIPAK dengan akun mahasiswa.',
+                'Masuk ke SPACENEST dengan akun mahasiswa.',
                 'Pilih layanan cuti jika tersedia dan tentukan semester atau periode cuti yang dimohonkan.',
                 'Isi alasan cuti dengan lengkap serta cantumkan rencana kembali aktif.',
                 'Unggah surat permohonan dan bukti pendukung yang relevan, kemudian periksa seluruh data.',
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 'Hubungi dosen pembimbing akademik atau program studi bila kendala menyangkut persetujuan akademik.'
             ],
             steps: [
-                'Masuk ke SIPAK menggunakan akun mahasiswa.',
+                'Masuk ke SPACENEST menggunakan akun mahasiswa.',
                 'Pilih dispensasi KRS jika layanan tersedia pada periode pengajuan.',
                 'Jelaskan kendala, mata kuliah yang terkait, dan tindakan yang sudah dicoba.',
                 'Lampirkan bukti pendukung yang relevan dan pastikan informasi semester serta mata kuliah benar.',
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 'Periksa apakah lokasi atau jenis penelitian memerlukan izin etik atau persetujuan tambahan.'
             ],
             steps: [
-                'Masuk ke SIPAK menggunakan akun mahasiswa.',
+                'Masuk ke SPACENEST menggunakan akun mahasiswa.',
                 'Pilih layanan izin penelitian jika tersedia, lalu isi judul, lokasi, tujuan, metode ringkas, dan rentang waktu penelitian.',
                 'Masukkan nama instansi atau pihak yang dituju dengan ejaan dan alamat yang benar.',
                 'Unggah proposal atau ringkasan penelitian dan dokumen persetujuan pembimbing yang diminta.',

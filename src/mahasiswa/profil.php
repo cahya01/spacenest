@@ -24,7 +24,7 @@ try {
         $profileError = 'Data profil mahasiswa tidak ditemukan.';
     }
 } catch (mysqli_sql_exception | RuntimeException $exception) {
-    error_log('SIPAK student profile error: ' . $exception->getMessage());
+    error_log('SPACENEST student profile error: ' . $exception->getMessage());
     $profileError = 'Data profil belum dapat dimuat. Silakan coba kembali beberapa saat lagi.';
 }
 
@@ -34,7 +34,7 @@ dashboardRenderStart('mahasiswa', $username, 'Profil Mahasiswa', 'Cari profil at
     <div>
         <span class="panel-kicker">AKUN MAHASISWA</span>
         <h1>Profil Saya</h1>
-        <p>Periksa NIM, fakultas, dan program studi yang terdaftar di akun SIPAK Anda.</p>
+        <p>Periksa NIM, fakultas, dan program studi yang terdaftar di akun SPACENEST Anda.</p>
     </div>
 </section>
 

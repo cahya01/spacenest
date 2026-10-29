@@ -118,9 +118,9 @@ function dashboardLoadDataSafely($role, $username)
     try {
         return dashboardLoadData($role, $username);
     } catch (RuntimeException $error) {
-        error_log('SIPAK dashboard data error: ' . $error->getMessage());
+        error_log('SPACENEST dashboard data error: ' . $error->getMessage());
         return [
-            'error' => 'Data dashboard belum dapat dimuat. Pastikan server database aktif dan database SIPAK sudah disiapkan.',
+            'error' => 'Data dashboard belum dapat dimuat. Pastikan server database aktif dan database yang dikonfigurasi sudah disiapkan.',
             'summary' => [
                 'total' => 0,
                 'diajukan' => 0,
@@ -192,7 +192,7 @@ function dashboardRenderStart($role, $username, $title, $searchHint, $error = ''
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title><?php echo $title; ?> | SIPAK</title>
+        <title><?php echo $title; ?> | SPACENEST</title>
         <link rel="stylesheet" href="../assets/css/style.css?v=<?php echo filemtime(__DIR__ . '/../assets/css/style.css'); ?>">
     </head>
     <body class="dashboard-page">
@@ -200,7 +200,7 @@ function dashboardRenderStart($role, $username, $title, $searchHint, $error = ''
             <aside class="dashboard-sidebar" id="dashboard-sidebar">
                 <a class="dashboard-logo" href="dashboard.php">
                     <img src="../assets/img/WhatsApp%20Image%202026-10-16%20at%2020.53.26.jpeg" alt="">
-                    <span><strong>SIPAK</strong><small><?php echo $roleLabel; ?></small></span>
+                    <span><strong>SPACENEST</strong><small><?php echo $roleLabel; ?></small></span>
                 </a>
                 <div class="dashboard-sidebar-label">MENU UTAMA</div>
                 <nav aria-label="Navigasi dashboard">
@@ -254,7 +254,7 @@ function dashboardRenderEnd()
     ?>
                 </main>
                 <footer class="dashboard-footer">
-                    <span>SIPAK · Sistem Informasi Pengajuan Akademik Kampus</span>
+                    <span>SPACENEST · Sistem Pelaporan dan Monitoring Fasilitas Fakultas Teknik dan Sains Terapan</span>
                     <span>&copy; <?php echo date('Y'); ?> Universitas Muhammadiyah Indonesia</span>
                 </footer>
             </div>

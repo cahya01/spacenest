@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             $connection->close();
         } catch (mysqli_sql_exception | RuntimeException $exception) {
-            error_log('SIPAK login error: ' . $exception->getMessage());
+            error_log('SPACENEST login error: ' . $exception->getMessage());
             $error = 'Layanan masuk sedang mengalami kendala. Silakan coba kembali beberapa saat lagi.';
         }
     }
@@ -86,7 +86,7 @@ function loginEscape(string $value): string
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login SIPAK</title>
+    <title>Login SPACENEST</title>
     <link rel="stylesheet" href="assets/css/style.css?v=<?= filemtime(__DIR__ . '/assets/css/style.css') ?>">
 </head>
 <body class="login-page">
@@ -94,14 +94,14 @@ function loginEscape(string $value): string
         <section class="login-welcome" aria-labelledby="welcome-title">
             <a class="login-brand" href="index.php">
                 <img src="assets/img/WhatsApp%20Image%202026-10-16%20at%2020.53.26.jpeg" alt="">
-                <span class="login-brand-name">SIPAK</span>
+                <span class="login-brand-name">SPACENEST</span>
                 <span class="login-brand-divider"></span>
-                <span class="login-brand-caption">Sistem Informasi Pengajuan<br>Akademik Kampus</span>
+                <span class="login-brand-caption">Sistem Pelaporan dan Monitoring Fasilitas Fakultas Teknik dan Sains Terapan</span>
             </a>
 
             <div class="welcome-copy">
                 <p class="welcome-eyebrow">UNIVERSITAS MUHAMMADIYAH INDONESIA</p>
-                <h1 id="welcome-title">Selamat Datang di <strong>SIPAK</strong></h1>
+                <h1 id="welcome-title">Selamat Datang di <strong>SPACENEST</strong></h1>
                 <p class="welcome-description">Solusi mudah untuk berbagai layanan pengajuan akademik dan administrasi mahasiswa.</p>
 
                 <ul class="welcome-benefits">
@@ -117,8 +117,8 @@ function loginEscape(string $value): string
         <section class="login-panel" aria-labelledby="login-title">
             <div class="login-card">
                 <img class="login-card-logo" src="assets/img/WhatsApp%20Image%202026-10-16%20at%2020.53.26.jpeg" alt="Logo Universitas Muhammadiyah Indonesia">
-                <h2 id="login-title">SIPAK</h2>
-                <p class="login-card-subtitle">Sistem Informasi Pengajuan<br>Akademik Kampus</p>
+                <h2 id="login-title">SPACENEST</h2>
+                <p class="login-card-subtitle">Sistem Pelaporan dan Monitoring Fasilitas Fakultas Teknik dan Sains Terapan</p>
                 <p class="login-instruction">Silakan masuk ke akun Anda untuk melanjutkan</p>
 
                 <?php if ($notice !== ''): ?>

@@ -12,9 +12,9 @@ dashboardRenderStart('mahasiswa', $username, 'Dashboard Mahasiswa', 'Cari pengaj
 ?>
 <section class="dashboard-welcome student-welcome">
     <div>
-        <span class="dashboard-eyebrow">PORTAL AKADEMIK SIPAK</span>
+        <span class="dashboard-eyebrow">SPACENEST</span>
         <h1>Selamat datang, <?php echo dashboardEscape($username); ?>!</h1>
-        <p>Pantau pengajuan akademik Anda dan temukan layanan yang dibutuhkan dengan lebih mudah.</p>
+        <p>Pantau laporan fasilitas dan temukan informasi yang dibutuhkan dengan lebih mudah.</p>
         <a class="dashboard-primary-link" href="buat_pengajuan.php">Buat Pengajuan <span aria-hidden="true">→</span></a>
     </div>
     <div class="welcome-decoration" aria-hidden="true">

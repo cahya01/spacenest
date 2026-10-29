@@ -12,7 +12,7 @@ if (isset($_SESSION['user'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIPAK | Sistem Informasi Pengajuan Akademik Kampus</title>
+    <title>SPACENEST | Sistem Pelaporan dan Monitoring Fasilitas Fakultas Teknik dan Sains Terapan</title>
     <link rel="stylesheet" href="assets/css/style.css?v=<?= filemtime(__DIR__ . '/assets/css/style.css') ?>">
     <script src="assets/js/app.js?v=<?= filemtime(__DIR__ . '/assets/js/app.js') ?>" defer></script>
 </head>
@@ -22,8 +22,8 @@ if (isset($_SESSION['user'])) {
             <div class="brand">
                 <img src="assets/img/WhatsApp Image 2026-10-16 at 20.53.26.jpeg" alt="Logo Universitas Muhammadiyah Indonesia">
                 <div class="brand-text">
-                    <span class="brand-title">SIPAK</span>
-                    <small>Sistem Informasi Pengajuan Akademik Kampus</small>
+                    <span class="brand-title">SPACENEST</span>
+                    <small>Sistem Pelaporan dan Monitoring Fasilitas Fakultas Teknik dan Sains Terapan</small>
                 </div>
             </div>
 
@@ -45,7 +45,7 @@ if (isset($_SESSION['user'])) {
         <section class="hero">
             <div class="container hero-wrap">
                 <div class="hero-copy">
-                    <span class="eyebrow">SELAMAT DATANG DI SIPAK</span>
+                    <span class="eyebrow">SELAMAT DATANG DI SPACENEST</span>
                     <h1>Urus Pengajuan Akademik Lebih Mudah</h1>
                     <p>
                         Satu portal untuk pengajuan layanan akademik dan administrasi mahasiswa.
@@ -69,7 +69,7 @@ if (isset($_SESSION['user'])) {
             </div>
         </section>
 
-        <section class="hero-highlights" aria-label="Keunggulan SIPAK">
+        <section class="hero-highlights" aria-label="Keunggulan SPACENEST">
             <div class="container highlights-grid">
                 <article class="highlight-item">
                     <span class="highlight-icon" aria-hidden="true">
@@ -165,7 +165,7 @@ if (isset($_SESSION['user'])) {
                 <p class="service-dialog-note" id="service-dialog-note"></p>
             </div>
             <div class="service-dialog-footer">
-                <span>Sudah siap? Masuk ke SIPAK untuk memulai.</span>
+                <span>Sudah siap? Masuk ke SPACENEST untuk memulai.</span>
                 <a class="btn btn-primary" href="login.php">Masuk untuk Mengajukan <span aria-hidden="true">→</span></a>
             </div>
         </dialog>
